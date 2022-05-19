@@ -3,7 +3,7 @@ h1{
  font-family: 'Staatliches', cursive;
  text-shadow: 4px 4px #94aae683;
 }
-#intro{
+.intro{
     font-size: 20px;
     font-family: 'IBM Plex Mono', monospace;
 }
