@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Martial Arts Final</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+	<body>
+        <!--Intro-->
+        <div class="main">
+        <h1>My History in Martial Arts</h1>
+        <h2 id="intro">My name is Mateo Zarate. I was born on Feburary 10th 2007, in Hayward, California. I lived in California for about 2 years, before moving to Minnesota. I currently live in Colorado. I am currently a freshmen in highschool, as of May 2022.</h2>
+        <br>
+        </div>
+        <!--Links-->
+        <div>
+        <a href="#section2" class="myLink">The Beginning</a> <a href="#section3">Gaining Interest</a> <a href="#section4">The Present</a> <a href="#section5">Contact Me!</a>
+        </div>
+        <br>
+        <!--Night Mode-->
+        <br>
+        <button class="button" onclick="document.body.style.backgroundColor = 'black'; document.body.style.color = 'white'; document.body.a.color = 'white'; document.img.border.color = 'white';">Dark Mode</button> <button class="button" onclick="document.body.style.backgroundColor = 'white'; document.body.style.color = 'black'; document.body.getElementsByTagName(a).color = 'black';">Light Mode</button>
+        <!--Beginning-->
+        <div class="main" id="section2">
+        <h1>The Beginning</h1>
+        <p>It had been about 2 years after moving to Minnesota, when I started my first martial art. I was about 4 years old when I started <span class="tooltip">Karate<span class="tooltiptext">An Asian system of unarmed combat using the hands and feet to deliver and block blows, widely practiced as a sport. It was formalized in Okinawa in the 17th century and popularized via Japan after about 1920. Karate is performed barefoot in loose padded clothing, with a colored belt indicating the level of skill, and involves mental as well as physical training.</span></span>. I wasn't the biggest fan of karate at first. I was never really interested, sense it was something my parents made me do. I would already began sparing at a young age because of karate. At around the age of 6 I left karate behind and moved to Colorado.</p>
+        <br>
+        <img src="IMG-0345.jpg"> <img src="IMG-0709.jpg">
+        </div>
+        <!--Gaining Interest-->
+        <div class="main" id="section3">
+        <h1>Gaining Interest</h1>
+        <p>After I settled in Colorado, I picked another martial art. This time it was <span class="tooltip">Jiu Jistu<span class="tooltiptext">Jujutsu, also known as jiu-jitsu and ju-jitsu, is a family of Japanese martial arts and a system of close combat that can be used in a defensive or offensive manner to kill or subdue one or more weaponless or armed and armored opponents.</span></span>. I was around 6 years old when I began Jiu Jistu. After a few years of training, I began to outgrow the kids, and had to train with adults. Training with adults definitely helped my boost my skill and experience in Jiu Jistu. I stopped training Jiu Jistu as Covid hit. I trained Jiu Jistu for about 7 years.</p>
+        <br>
+        <img src="IMG-4531.jpg"> <img src="IMG-9547.jpg">
+        </div>
+        <!--The Present-->
+        <div class="main" id="section4">
+        <h1>The Present</h1>
+        <p >Late summer of 2021 was when I got back into martial arts, since Covid started. I began looking around for a <span class="tooltip">Kickboxing<span class="tooltiptext">Kickboxing is a group of stand-up combat sports and a form of boxing based on kicking and punching. The combat takes place in a boxing ring, normally with boxing gloves, mouthguards, shorts, and bare feet to favor the use of kicks. Kickboxing is practiced for self-defense, general fitness, or for competition.</span></span> gym, and eventaully found one. The gym I found also offered classes for <span class="tooltip">Muay Thai<span class="tooltiptext">Muay Thai, sometimes referred to as Thai boxing, is a martial art and combat sport that uses stand-up striking along with various clinching techniques. This discipline is known as the "art of eight limbs", as it is characterised by the combined use of fists, elbows, knees and shins.</span></span>, but to take them you had to reach a certain level of experience first. I did Kickboxing for a few months, and began ranking up. Eventaully, after a few months, I was able to take the Muay Thai classes. I started Muay Thai during Feb/Mar and have been training ever since.</p>
+        <br>
+        <img src="IMG-4534.jpg"> <img src="IMG-5662.jpg">
+        </div>
+        <!--Contact Me-->
+        <div class="main" id="section5">
+        <h1>Contact Me!</h1>
+        </div>
+        <!--Form-->
+        <form action ="https://api.sheetmonkey.io/form/cjEAporbxKbpJ2CTZNRsXq" method="post">
+            <!--Name-->
+                <h2>Enter your name</h2>
+                <label for="name">First and Last Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+            <!--Grade-->
+                <h2>Whats your grade?</h2><br>
+                <input type="radio" id="nine" name="grade" value="9th Grade">
+                <label for="nine">9th Grade</label><br>
+                <input type="radio" id="ten" name="grade" value="10th Grade">
+                <label for="ten">10th Grade</label><br>
+                <input type="radio" id="eleven" name="grade" value="11th Grade">
+                <label for="eleven">11th Grade</label><br>
+                <input type="radio" id="twelve" name="grade" value="12th Grade">
+                <label for="twelve">12th Grade</label><br>
+                <input type="radio" id="noHighschool" name="grade" value="Not in highschool">
+                <label for="noHighschool">Not in highschool</label>
+            <!--Message-->
+                <h2>What do you want to say?</h2><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <!--Submit-->
+                <h2>Enter your email</h2>
+                <label for="name">Your email:</label><br>
+                <input type="text" id="email" name="email"><br>
+            <!--Submit-->
+            <br>   
+                <input type="submit" value="Submit"><br>
+            </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        // Button Script 
+        </script>
+	</body>
+
+</html>

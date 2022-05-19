@@ -1,0 +1,108 @@
+h1{
+ font-size: 75px;
+ font-family: 'Staatliches', cursive;
+ text-shadow: 4px 4px #94aae683;
+}
+#intro{
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+html {
+    scroll-behavior: smooth;
+}/*
+#info{
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    color:black;
+}
+*/
+#section1 {
+    height: 600px;
+}
+#section2 {
+    height: 600px;
+}
+#section3 {
+    height: 600px;
+}
+#section4 {
+    height: 600px;
+}
+#section5 {
+
+}
+a{
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+}
+body{
+    width:85%;
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    color:black;
+}
+p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+a + a {
+    margin-left: 10px;
+}
+a:hover {
+    color: rgb(105, 192, 243);
+  }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    color:rgb(105, 192, 243);
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 3;
+    font-size: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    color:white;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+  }
+#myLink{
+    color:black;
+}
+img{
+    width: 300px;
+    height: 400px;
+    border: 5px solid black;
+    border-radius: 8px;
+    filter: grayscale(100%);
+
+}
+img:hover{
+    filter:grayscale(0%);
+}
